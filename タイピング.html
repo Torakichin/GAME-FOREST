@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ゲームの森</title>
+  </head>
+  <body>
+    <header>
+      <h1><img src="images/ゲー森ロゴ.png" alt="ゲー森ロゴ"></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="ちいかわおみくじ.html">ちいかわおみくじ</a></li>
+          <li><a href="タイピング.html">タイピング</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <main>
+        <article>
+          <h2>ゲームの森へようこそ！</h2>
+            <h3>タイピング</h3>
+
+            <img id="status-image" src="images/1.png" alt="Status Image" style="width: 300px;">
+            <button id="start-button">スタート</button>
+            <div id="game-area" style="display: none;">
+                <p>問題: <span id="question-japanese"></span></p>
+                <p>ローマ字: <span id="question-romaji"></span></p>
+                <input type="text" id="input-area" autofocus>
+                <button id="next-button">次へ</button>
+                <p id="error-message"></p>
+                <p id="mistake-count"></p>
+            </div>
+            <p id="game-over" style="display: none; color: red;">ゲームオーバー</p>
+        
+            <script src="script3.js"></script>
+            
+            </section>
+
+        </article>
+      </main>
+      <aside>
+        <nav class="Links">
+          <h2>リンク</h2>
+          <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="ちいかわおみくじ.html">ちいかわおみくじ</a></li>
+            <li><a href="タイピング.html">タイピング</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </div>
+    <footer>
+      <p><small>© 2024 ゲームの森　All rights reserved</small></p>
+    </footer>
+  </body>
+</html>
