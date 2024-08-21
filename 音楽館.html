@@ -22,20 +22,23 @@
       <main>
         <article>
           <h2>ゲームの森へようこそ！</h2>
-          <section>
-            <h3>ちいかわおみくじ</h3>
-            <p>おみくじをひくよ、ヤァー－－ッ！<br></p>
-            <button id="start-button">スタート</button>
-    <br><br>
-    <!-- GIFアニメーションの表示領域 -->
-    <img id="gif-animation" src="loading.gif" style="display: none;">
-    <br><br>
-    <!-- ランダムに選ばれた画像を表示する領域 -->
-    <img id="random-image" src="" style="display: none;">
+            <h3>音楽館</h3>
 
-    <script src="script2.js"></script>
-
-          </section>
+            <img src="images/pict_stop.png" alt="再生状態を表す画像">
+            <audio src="music/bgm1.mp3" controls></audio>
+            <p>聞きたい曲を選んでね！<a id="random" href="#">ランダム</a></p>
+            <ul>
+              <li data-file="music/bgm1.mp3" class="active">ミュージック1</li>
+              <li data-file="music/bgm2.mp3">ミュージック2</li>
+              <li data-file="music/bgm3.mp3">ミュージック3</li>
+              <li data-file="music/bgm4.mp3">ミュージック4</li>
+              <li data-file="music/bgm5.mp3">ミュージック5</li>
+              <li data-file="music/bgm6.mp3">ミュージック6</li>
+            </ul>
+        
+            <script src="script4.js"></script>
+            
+            </section>
 
         </article>
       </main>
