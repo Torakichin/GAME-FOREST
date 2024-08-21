@@ -177,3 +177,19 @@ input[type="submit"] {
   color: #ffffff;
   padding: 18px 80px;
 }
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  border-top: solid 1px #b1daff;
+  padding: 2px;
+  cursor: pointer;
+}
+.active{
+  background: #efefff;
+  color: #ff6800;
+}
+li:hover{
+  background: #efefff;
+}
